@@ -1,12 +1,11 @@
 
 # Blood Cell Characterization
 
-## Introduction
-- Blood cells play a vital role in functioning of human body. 
-- Red blood cells (RBCs) are an important element of blood. White blood cells (WBCs) protect the body from infection. 
-- Diseases and infections aﬀect blood cells ﬁrst in order to weaken the human defensive system. 
-- Most of the diseases diagnosis are done based on the blood test results. There are diﬀerent types of blood test, each test gives results related to certain issues. 
-- **Pathologists manually count blood cells and classify WBCs during blood test which is error prone and time consuming process.** 
+## Problem Statement
+- Most of the blood test results for diseases are based on the cell structure and cell count. Pathologists analyse blood samples under microscope and gives results which is time taking process and also error prone in some cases
+- Since the development of digital microscopes and machine learning techniques, many attempts were made to automate the process
+- The existing models in the market are costly. There are few startups working to develop a low cost slide scanner with a trade off between cost and quality of blood smear images
+- **Aim is develop an end-to-end model, with image processing techniques and machine learning algorithms, which can process microscopic images to count blood cells, classify white blood cells and predict probable diseases**
 
 <div align="center">
   <figure>
@@ -14,12 +13,6 @@
     <figcaption>Fig.1 - A typical blood smear slide image under microscope</figcaption>
   </figure> 
 </div>
-
-## Problem Statement
-- Most of the blood test results for diseases are based on the cell structure and cell count. Pathologists analyse blood samples under microscope and gives results which is time taking process and also error prone in some cases
-- Since the development of digital microscopes and machine learning techniques, many attempts were made to automate the process
-- The existing models in the market are costly. There are few startups working to develop a low cost slide scanner with a trade off between cost and quality of blood smear images
-- **Aim is develop an end-to-end model, with image processing techniques and machine learning algorithms, which can process microscopic images to count blood cells, classify white blood cells and predict probable diseases**
 
 ## Work Done
 

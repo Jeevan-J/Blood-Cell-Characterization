@@ -1,7 +1,8 @@
 
 # Blood Cell Characterization
 
-## [#f03c15](Problem Statement)'#f03c15'
+<h2 style="color:red">Problem Statement</h2>
+
 - Most of the blood test results for diseases are based on the cell structure and cell count. Pathologists analyse blood samples under microscope and gives results which is time taking process and also error prone in some cases
 - Since the development of digital microscopes and machine learning techniques, many attempts were made to automate the process
 - The existing models in the market are costly. There are few startups working to develop a low cost slide scanner with a trade off between cost and quality of blood smear images

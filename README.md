@@ -1,7 +1,7 @@
 
 # Blood Cell Characterization
 
-<h2 style="color:red">Problem Statement</h2>
+<h2>Problem Statement</h2>
 
 - Most of the blood test results for diseases are based on the cell structure and cell count. Pathologists analyse blood samples under microscope and gives results which is time taking process and also error prone in some cases
 - Since the development of digital microscopes and machine learning techniques, many attempts were made to automate the process
@@ -14,6 +14,7 @@
     <figcaption>Fig.1 - A typical blood smear slide image under microscope</figcaption>
   </figure> 
 </div>
+<br>
 
 ## Work Done
 - Applied an image processing technique with few pre-processing steps to count Red Blood Cells (RBCs) in the blood smear image.
@@ -29,11 +30,12 @@
     <figcaption>Fig.2 - Proposed end to end model</figcaption>
   </figure> 
 </div>
+<br>
 
 ## Results
 - Presently, our image processing technique is able to count RBC up to 97% accuracy excluding overlapped cells.
-- Developed ensemble based machine learning algorithm is able to produce an **accuracy of 94% in classification of WBCs into sub-categories.**
-- The same model when trained for two class classification of **leukemic B-lymphoblast cells from normal B-lymphoid precursors** produced an **accuracy of 82%.**
+- Developed ensemble based machine learning algorithm is able to produce an <strong style="color:#c5f015"> accuracy of 94% in classification of WBCs into sub-categories. </strong>
+- The same model when trained for two class classification of **leukemic B-lymphoblast cells from normal B-lymphoid precursors** produced an <strong style="color:#c5f015"> accuracy of 82%. </strong>
 
 <div align="center">
   <figure>

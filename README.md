@@ -9,7 +9,7 @@
 
 <div align="center">
   <figure>
-    <img src="resources/Im022_1.jpg" alt="Blood Smear Image" width="150px" height="150px">
+    <img src="resources/Im022_1.jpg" alt="Blood Smear Image" width="150px" height="150px"><br>
     <figcaption>Fig.1 - A typical blood smear slide image under microscope</figcaption>
   </figure> 
 </div>
@@ -24,7 +24,7 @@
 
 <div align="center">
   <figure>
-    <img src="resources/Proposed_end_to_end_model.PNG" alt="Proposed_end_to_end_model" >
+    <img src="resources/Proposed_end_to_end_model.PNG" alt="Proposed_end_to_end_model"><br>
     <figcaption>Fig.2 - Proposed end to end model</figcaption>
   </figure> 
 </div>
@@ -36,7 +36,7 @@
 
 <div align="center">
   <figure>
-    <img src="resources/results.PNG" alt="Proposed_end_to_end_model" >
+    <img src="resources/results.PNG" alt="Proposed_end_to_end_model"><br>
     <figcaption>Fig.3 - Performances of of different architectures/approaches on Classification of leukemic B-lymphoblast cells from normal B-lymphoid precursors</figcaption>
   </figure> 
 </div>

@@ -5,54 +5,38 @@
 - Most of the blood test results for diseases are based on the cell structure and cell count. Pathologists analyse blood samples under microscope and gives results which is time taking process and also error prone in some cases
 - Since the development of digital microscopes and machine learning techniques, many attempts were made to automate the process
 - The existing models in the market are costly. There are few startups working to develop a low cost slide scanner with a trade off between cost and quality of blood smear images
-- **Aim is develop an end-to-end model, with image processing techniques and machine learning algorithms, which can process microscopic images to count blood cells, classify white blood cells and predict probable diseases**
+- **Aim is to develop an end-to-end model, with image processing techniques and machine learning algorithms, which can process microscopic images to count blood cells, classify white blood cells and predict probable diseases**
 
 <div align="center">
   <figure>
-    <img src="resources/Im022_1.jpg" alt="Blood Smear Image" width="150px" height="150px" align="center">
+    <img src="resources/Im022_1.jpg" alt="Blood Smear Image" width="150px" height="150px">
     <figcaption>Fig.1 - A typical blood smear slide image under microscope</figcaption>
   </figure> 
 </div>
 
 ## Work Done
+- Applied an image processing technique with few pre-processing steps to count Red Blood Cells (RBCs) in the blood smear image.
+- Identified and segmented out White blood cells (WBCs) from blood smear image.
+- Applied a machine learning algorithm to do semantic segmentation of White blood cells from segmented images.
+- Developed a machine learning algorithm to classify segmented WBCs into four sub-categories.
+- Worked on **"Classification of Normal vs Malignant Cells in B-ALL White Blood Cancer Microscopic Images"** : ISBI 2019 challenge hosted by SBI Lab, IIIT Delhi.
+- Developed an ensemble based machine learning model to classify leukemic B-lymphoblast cells from normal B-lymphoid precursors from blood smear microscopic images
 
+<div align="center">
+  <figure>
+    <img src="resources/Proposed_end_to_end_model.PNG" alt="Proposed_end_to_end_model" >
+    <figcaption>Fig.2 - Proposed end to end model</figcaption>
+  </figure> 
+</div>
 
-## Welcome to GitHub Pages
+## Results
+- Presently, our image processing technique is able to count RBC up to 97% accuracy excluding overlapped cells.
+- Developed ensemble based machine learning algorithm is able to produce an **accuracy of 94% in classification of WBCs into sub-categories.**
+- The same model when trained for two class classification of **leukemic B-lymphoblast cells from normal B-lymphoid precursors** produced an **accuracy of 82%.**
 
-You can use the [editor on GitHub](https://github.com/Jeevan-J/BloodCellCharacterization/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-<img src="resources/Im022_1.jpg" height="100px" width="100px">
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](/resourses/Im022_1.jpg)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Jeevan-J/BloodCellCharacterization/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<div align="center">
+  <figure>
+    <img src="resources/results.PNG" alt="Proposed_end_to_end_model" >
+    <figcaption>Fig.3 - Performances of of different architectures/approaches on Classification of leukemic B-lymphoblast cells from normal B-lymphoid precursors</figcaption>
+  </figure> 
+</div>
